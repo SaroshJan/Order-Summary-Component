@@ -65,7 +65,7 @@ body {
     background-color: var(--veryPaleBlue);
     margin: 30px 25px;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
