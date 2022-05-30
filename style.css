@@ -16,8 +16,10 @@ body {
     margin: 0;
     font-family: 'Red Hat Display', sans-serif;
     background: url('/images/pattern-background-mobile.svg') no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+    background-size: contain;
+    background-color: var(--paleBlue);
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +29,7 @@ body {
     width: 325px;
     background-color: white;
     border-radius: 20px;
+    box-shadow: 0 40px 40px -20px rgba(13, 48, 189, 0.15);
 }
 
 .hero-img {
@@ -52,6 +55,7 @@ body {
 
 .about-para {
     text-align: center;
+    font-size: 16px;
     line-height: 1.5;
     color: var(--desaturatedBlue);
     font-weight: 500;
@@ -111,7 +115,7 @@ body {
     text-align: center;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0 5px 20px var(--desaturatedBlue);
+    box-shadow: 0px 10px 20px hsl(245, 75%, 52%, 0.5);
     transition: background-color .3s ease;
 }
 
