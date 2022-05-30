@@ -63,8 +63,8 @@ body {
 
 .plan-container {
     background-color: var(--veryPaleBlue);
-    margin: 30px;
-    padding: 10px;
+    margin: 30px 25px;
+    padding: 15px;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -107,7 +107,7 @@ body {
 .payment-btn {
     display: block;
     text-decoration: none;
-    margin: 0 30px 20px;
+    margin: 0 25px 20px;
     background-color: var(--brightBlue);
     color: var(--veryPaleBlue);
     font-size: 15px;
@@ -127,7 +127,7 @@ body {
 .cancel-btn {
     display: block;
     text-decoration: none;
-    margin: 30px 30px;
+    margin: 30px 25px;
     text-align: center;
     color: var(--desaturatedBlue);
     font-size: 15px;
@@ -145,10 +145,33 @@ body {
     }
 
     .container {
-        width: 360px
+        width: 420px
     }
 
     .hero-img {
-        width: 360px;
+        width: 420px;
+    }
+
+    .about-heading {
+        font-size: 30px;
+    }
+
+    .plan-container {
+        margin: 30px 48px;
+        padding: 20px;
+    }
+
+    .payment-btn {
+        margin: 0 48px 20px;
+    }
+
+    .cancel-btn {
+        margin: 30px 48px;
+    }
+
+    .plan-heading,
+    .plan-price,
+    .plan-change {
+        font-size: 16px;
     }
 }
