@@ -139,7 +139,7 @@ body {
     color: var(--darkBlue);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 450px) {
     body {
         background-image: url('/images/pattern-background-desktop.svg');
     }
@@ -170,8 +170,11 @@ body {
     }
 
     .plan-heading,
-    .plan-price,
-    .plan-change {
+    .plan-price {
         font-size: 16px;
+    }
+
+    .plan-change {
+        font-size: 15px;
     }
 }
